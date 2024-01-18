@@ -4,17 +4,7 @@
  
  ![cloud 1](https://user-images.githubusercontent.com/31361652/31910363-1812395e-b7f2-11e7-98b6-4281bf053239.PNG)
 
- # INTRODUCTION 
 
-   * University Name: http://www.sjsu.edu/
-
-   * Course: [Cloud Technologies](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html/)
-
-   * Professor: [Sanjay Garje](https://www.linkedin.com/in/sanjaygarje/)
-
-   * ISA: [Divyanthika Urs](https://www.linkedin.com/in/divyankithaurs/)
-   
-   * Student: [Anuradha Rajashekar](https://www.linkedin.com/in/anu-rajashekar-4b950092/)
    
    # PROJECT IDEA
 
@@ -94,17 +84,6 @@ SERVER SIDE-
 DATABASE- 
 * Mysql relational database is used to store and retrieve user data. This service is provided my Amazon RDS as PAAS.
 * "tables" are created in database for tracking user firstname, lastname and other records.
-
-# INSTRUCTIONS TO SET UP PROJECT LOCALLY :
-
-* Clone the above project into your local repository (Clone link :https://github.com/AnuradhaIyer/AWS-cloud-project.git) 
-* Go to the folder where the project is cloned, check for package.json file where all the dependencies for the project is mentioned.
-* Install node.js in your system. Link for iinstalling- (https://nodejs.org/en/).
-* We have included "aws-sdk" for accessing S3 from amazon, so kindly add that as a dependency in package.json file.
-* Server.js contains the backend/server side logic in this application.
-* Front end functionality is written in Angular JS (Refer "views" folder in the above prohject)
-* To run this project, go to the folder where files for this project is available--> open gitbash/cmd-->run "npm install" to install all node modules locally. To start the server, type command "node server js". Application will run in the portr mentioned in the code. Ex: "localhost:8081/"
-* Use sublime or notepad++ for editing code and start the server after editing.
 
 
 
